@@ -1,6 +1,4 @@
 package exercises;
-
-
 import java.util.Scanner;
 
 public class Alice {
@@ -26,10 +24,9 @@ public class Alice {
     }*/
     public String getUserSearchTerm(){
         Scanner scanner = new Scanner(System.in);
-        String searchTerm1 = scanner.nextLine();
+        String searchTerm = scanner.nextLine();
         //scanner.close();
-        return searchTerm1;
-
+        return searchTerm;
     }
 
     public boolean searchAliceQuote(String theSearchTerm){
